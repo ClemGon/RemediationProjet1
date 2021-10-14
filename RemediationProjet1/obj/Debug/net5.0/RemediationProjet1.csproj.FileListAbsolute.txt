@@ -13,4 +13,3 @@ C:\Users\Clément\source\repos\RemediationProjet1\obj\Debug\net5.0\RemediationPr
 C:\Users\Clément\source\repos\RemediationProjet1\obj\Debug\net5.0\ref\RemediationProjet1.dll
 C:\Users\Clément\source\repos\RemediationProjet1\obj\Debug\net5.0\RemediationProjet1.pdb
 C:\Users\Clément\source\repos\RemediationProjet1\obj\Debug\net5.0\RemediationProjet1.genruntimeconfig.cache
-C:\Users\Clément\source\repos\RemediationProjet1\obj\Debug\net5.0\RemediationProjet1.csproj.AssemblyReference.cache

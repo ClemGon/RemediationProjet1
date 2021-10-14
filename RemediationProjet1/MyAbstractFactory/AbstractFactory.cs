@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace RemediationProjet1.MyAbstractFactory
 {
-    public class AbstractFactory
+    public class AbstractFactory : IFactoryAbstract
     {
-        public static Cinema GetSalle(Cinema cinema)
+        public Cinema GetSalle(Cinema cinema)
         {
-            
             var salleCarré = new SalleCarré();
             var salleRonde = new SalleRonde();
 
-            Random aleatoire = new Random();
+            Random aleatoire = new();
             int entierUnChiffre = aleatoire.Next(2);
 
             if (entierUnChiffre == 1)

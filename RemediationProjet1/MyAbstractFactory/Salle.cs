@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RemediationProjet1.MyAbstractFactory
 {
-    public class Salle
+    public class Salle : ISalle
     {
+        public string Content { get; set; }
     }
 }
