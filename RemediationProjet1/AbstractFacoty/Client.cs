@@ -8,7 +8,7 @@ namespace RemediationProjet1.AbstractFacoty
 {
     public class Client
     {
-        public static void Coucou()
+        public void Coucou()
         {
             // The client code can work with any concrete factory class.
             Console.WriteLine("Client: Testing client code with the first factory type...");
@@ -19,7 +19,7 @@ namespace RemediationProjet1.AbstractFacoty
             ClientMethod(new ConcreteFactory2());
         }
 
-        public static void ClientMethod(IAbstractFactory factory)
+        public void ClientMethod(IAbstractFactory factory)
         {
             var productA = factory.CreateProductA();
             var productB = factory.CreateProductB();

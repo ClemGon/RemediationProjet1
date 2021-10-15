@@ -1,5 +1,4 @@
-﻿using RemediationProjet1.AbstractFacoty;
-using RemediationProjet1.MyAbstractFactory;
+﻿using RemediationProjet1.MyAbstractFactory.AbastractWithCorrectInterface;
 using System;
 
 namespace RemediationProjet1
@@ -9,7 +8,7 @@ namespace RemediationProjet1
 
         static void Main()
         {
-            new Consumer().Main();
+            new Utiliser().Launch();
         }
        
     }

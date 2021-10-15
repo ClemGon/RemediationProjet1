@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace RemediationProjet1.MyAbstractFactory
 {
-    public class Cinema : ICinema
+    public interface ISalleCarre
     {
-        public ISalle Salle { get ; set ; }
-
-
+        string GetASalle();
     }
-
-
-
 }
