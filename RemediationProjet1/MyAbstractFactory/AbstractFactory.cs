@@ -10,7 +10,7 @@ namespace RemediationProjet1.MyAbstractFactory
     {
         public Cinema GetSalle(Cinema cinema)
         {
-            var salleCarré = new SalleCarré();
+            var salleCarré = new SalleCarre();
             var salleRonde = new SalleRonde();
 
             Random aleatoire = new();

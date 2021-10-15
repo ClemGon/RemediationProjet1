@@ -8,6 +8,7 @@ namespace RemediationProjet1.MyAbstractFactory
 {
     public class Consumer
     {
+
         public void Main()
         {
             // The client code can work with any concrete factory class.

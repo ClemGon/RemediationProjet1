@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace RemediationProjet1.MyAbstractFactory
 {
-    class SalleRonde : Salle
+    class SalleRonde : Salle, ISalleRonde
     {
-        public string Video { get; set; }
+        public string GetASalle()
+        {
+            return "Une salle carré";
+        }
     }
 }

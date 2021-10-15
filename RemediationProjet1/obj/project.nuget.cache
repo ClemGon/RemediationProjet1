@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RSUJbWdutMrEZDeZ03MShArZ7aAcoTEeh0c/kbdAuUAmGVKFLcOKPr0lb5YhAF8gDB7FhlHlmpsUTW/vztGeTg==",
+  "dgSpecHash": "XWQyAE0yIxYMXgEc/40/GI7EIC5S/kujpWHo5xW6qgX7nnS9P6LPFr8AngZnl74517JiEjfeCDItA2PWWIwmqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clément\\source\\repos\\RemediationProjet1\\RemediationProjet1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\clemg\\Desktop\\RemediationProjet1\\RemediationProjet1\\RemediationProjet1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\clemg\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512"
+  ],
   "logs": []
 }

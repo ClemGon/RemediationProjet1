@@ -8,6 +8,6 @@ namespace RemediationProjet1.MyAbstractFactory
 {
     public interface ICinema
     {
-        public Salle Salle { get; set; }
+        public ISalle Salle { get; set; }
     }
 }

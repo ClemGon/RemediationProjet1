@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace RemediationProjet1.MyAbstractFactory
 {
-    public class Cinema : ICinema
+    public class SalleCarre : Salle, ISalleCarre
     {
-        public ISalle Salle { get ; set ; }
-
-
+        public string GetASalle()
+        {
+            return "Une salle carré";
+        }
     }
-
-
-
 }
