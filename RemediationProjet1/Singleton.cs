@@ -13,12 +13,9 @@ namespace RemediationProjet1
 
         public static Singleton GetInstance()
         {
-            lock (_instance)
+            if (_instance == null)
             {
-                if (_instance == null)
-                {
-                    _instance = new Singleton();
-                }
+                _instance = new Singleton();
             }
             return _instance;
 
