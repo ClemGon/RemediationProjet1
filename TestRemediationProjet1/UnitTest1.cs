@@ -1,6 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RemediationProjet1;
 using RemediationProjet1.MyAbstractFactory.AbastractWithCorrectInterface;
+using RemediationProjet1.Scoped;
+using RemediationProjet1.Transient;
 using System.Collections.Generic;
 
 namespace TestRemediationProjet1
@@ -54,5 +56,33 @@ namespace TestRemediationProjet1
 
             return liste;
         }
+
+
+        [TestMethod]
+        public void Scoped()
+        {
+            Scoped scoped = new Scoped();
+            Voiture voiture = new Voiture();
+            scoped.Instance(voiture);
+            
+            var scopp = scoped.GetInstance();
+
+            Scoped scoped1 = new Scoped();
+            var scopp1 = scoped1.GetInstance();
+
+
+            Assert.AreNotEqual(scopp, scopp1);
+
+        }
+
+        [TestMethod]
+        public void TestTransient()
+        {
+            var transient = Transient.GetInstance();
+            var transient1 = Transient.GetInstance();
+            Assert.AreNotEqual(transient1, transient);
+        }
+
+
     }
 }

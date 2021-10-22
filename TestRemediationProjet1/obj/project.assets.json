@@ -1665,7 +1665,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Microsoft.CodeCoverage": "16.9.4"
+          "Microsoft.CodeCoverage": "16.9.4",
+          "System.Collections": "4.3.0"
         },
         "compile": {
           "bin/placeholder/RemediationProjet1.dll": {}

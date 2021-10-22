@@ -1079,7 +1079,8 @@
       },
       "RemediationProjet1/1.0.0": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "16.9.4"
+          "Microsoft.CodeCoverage": "16.9.4",
+          "System.Collections": "4.3.0"
         },
         "runtime": {
           "RemediationProjet1.dll": {}
